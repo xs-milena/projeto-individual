@@ -1,81 +1,235 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>AquaTech | Página Inicial</title>
+  <title>Perícia & Feminicídio</title>
 
-    <script src="./js/sessao.js"></script>
+  <script src="./js/sessao.js"></script>
 
-    <link rel="stylesheet" href="./css/estilo.css">
-    <link rel="icon" href="./assets/icon/favicon2.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="icon" href="./assets/icon/logo.png" />
 </head>
 
 <body>
+  <div class="barra-superior">
+    <p>
+      Se você está em situação de risco <span>ligue 180</span> (Central de
+      Atendimento à Mulher) ou <span>190</span> (Policía Militar)
+    </p>
+  </div>
+
+  <!-- HEADER E BANNER  -->
+
+  <div class="header-e-banner">
     <div class="header">
       <div class="container">
-        <h1 class="titulo">AquaTech</h1>
+        <h1 class="titulo">PERÍCIA<span> & </span>FEMINICÍDIO</h1>
         <ul class="navbar">
-          <li class="agora">
-            <a href="#">Inicial</a>
+          <li>
+            <a href="#">INICIO</a>
           </li>
           <li>
-            <a href="simulador.html">Simulador</a>
-          </li>
-          <li>|</li>
-          <li>
-            <a href="login.html">Login</a>
+            <a href="#legislacao">LEGISLAÇÃO</a>
           </li>
           <li>
-            <a href="cadastro.html">Cadastro</a>
+            <a href="#pericia">PERICIA</a>
           </li>
+          <li>
+            <a href="#vestigios">VESTÍGIOS</a>
+          </li>
+          <li>
+            <a href="cadastro.html">EVIDÊNCIAS</a>
+          </li>
+          <li>
+            <a href="cadastro.html">LAUDO</a>
+          </li>
+          <li>
+            <a href="cadastro.html">DADOS</a>
+          </li>
+          <li>
+            <a href="cadastro.html">SOBRE</a>
+          </li>
+          <li>
+            <a href="cadastro.html">QUIZES</a>
+          </li>
+          <a href="cadastro.html" class="botao-login">LOGIN</a>
         </ul>
       </div>
     </div>
-  
+
+    <!-- BANNER -->
+
     <div class="banner">
-      <div class="container">
-        <p>Preservando <span>hoje</span> para existirem <span>amanhã</span>.</p>
-      </div>
-    </div>
-  
-    <div class="social">
-      <div class="container">
-        <div class="boxes">
-          <div class="box">
-            <img src="assets/imgs/planet-earth_color.png">
-            <h4>Missão</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
+      <h1 class="titulo">
+        ATUAÇÃO DA <span class="cor-destaque"> PERICÍA CRIMINAL </span><br/>
+        EM CASOS DE <span class="cor-destaque"> FEMINICÍDIO </span>
+      </h1>
+      <p class="subtitulo">
+        Análise de como a perícia criminal contribui para a investigação<br> de
+        crimes contra mulheres no Brasil
+      </p>
+      <div class="estatisticas">
+        <div class="kpi">
+          <div class="numero">1.568</div>
+          <div class="descricao">
+            Vítimas de feminicídio<br />em 2025 no Brasil
           </div>
-          <div class="box">
-            <img src="assets/imgs/lightbulb_color.png">
-            <h4>Visão</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
-          <div class="box">
-            <img src="assets/imgs/growth_color.png">
-            <h4>Valores</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quas cupiditate asperiores provident magnam
-              vitae illum iusto fugiat atque deleniti nulla sed iure suscipit, laborum, aliquid accusantium cum dicta
-              minima.</p>
-          </div>
+        </div>
+        <div class="kpi">
+          <div class="numero">+ 4.7%</div>
+          <div class="descricao">Crescimento em<br />relação a 2024</div>
+        </div>
+        <div class="kpi">
+          <div class="numero">59.4%</div>
+          <div class="descricao">Vítimas mortas pelo<br/>companheiro</div>
         </div>
       </div>
     </div>
-  
-    <div class="footer">
-      <div class="container">
-        <h4>Feito com amor por aluno &hearts; SPTech &copy; 2023-2026</h4>
-      </div>
+  </div>
+
+  <!-- SEÇÃO LEGISLAÇÃO -->
+
+    <div id="legislacao">
+                <img src="./assets/imgs/mulher.png" alt="">
+                <div class="posicao">// LEGISLAÇÃO BRASILEIRA</div>
+                <h2 class="titulo">O que é Feminicídio?</h2>
+                <p class="descricao">O feminicídio é o homicídio cometido contra a mulher por razões de gênero,
+                    envolvendo violência doméstica e familiar e/ou menosprezo à condição de mulher.</p>
+
+                <div class="info-lei">
+                    <div class="item">
+                        <div class="data">09 de Março de 2015</div>
+                        <div class="nome-lei">Lei nº 13.104</div>
+                    </div>
+                    <div class="item">
+                        <div class="data-pena">12 a 30 anos</div>
+                        <div class="pena">Reclusão</div>
+                    </div>
+                </div>
+
+                <div class="cartoes-lei">
+                    <div class="cartao">
+                        <p>Qualifica o feminicídio como crime hediondo</p>
+                    </div>
+                    <div class="cartao">
+                        <p>De acordo com o Código Penal brasileiro (Decreto-Lei nº 2.848 de 1940)</p>
+                    </div>
+                </div>
     </div>
-  </body>
+
+    <!-- SEÇÃO PERÍCIA -->
+
+        <div id="pericia">
+            <div class="posicao">// PERICIA CRIMINAL</div>
+            <h2 class="titulo">Procedimento Pericial</h2>
+            <p class="descricao">Procedimentos técnicos realizados por peritos para verificar se houve crime,
+                analisando vestígios que comprovem o fato e identifiquem os envolvidos.</p>
+
+            <div class="procedimentos">
+                <div class="procedimento-cartao">
+                    <div class="numero">01</div>
+                    <div class="conteudo">
+                        <div class="titulo-e-icone">
+                        <img src="./assets/imgs/door.png" alt="">
+                        <div class="procedimento">Isolamento da cena de crime</div>
+                        </div>
+                        <div class="texto">Isolamento do local para evitar interferências, preservação dos
+                            vestígios e início da cadeia de custódia.</div>
+                    </div>
+                </div>
+                <div class="procedimento-cartao">
+                    <div class="numero">02</div>
+                    <div class="conteudo">
+                        <div class="titulo-e-icone">
+                        <img src="./assets/imgs/camera.png" alt="">
+                        <div class="procedimento">Registro escrito e fotográfico</div>
+                        </div>
+                        <div class="texto">Anotações específicas dos vestígios, além de registros
+                            fotográficos antes de qualquer coleta. Etapa fundamental para garantir a integridade das
+                            evidências.</div>
+                    </div>
+                </div>
+                <div class="procedimento-cartao">
+                    <div class="numero">03</div>
+                    <div class="conteudo">
+                        <div class="titulo-e-icone">
+                        <img src="./assets/imgs/lupa.png" alt="">
+                        <div class="procedimento">Coleta e armazenamento dos vestígios</div>
+                        </div>
+                        <div class="texto">Acontece a coleta e armazenamento dos vestígios de acordo com
+                            suas características físicas, químicas e biológicas.</div>
+                    </div>
+                </div>
+                <div class="procedimento-cartao">
+                    <div class="numero">04</div>
+                    <div class="conteudo">
+                        <div class="titulo-e-icone">
+                        <img src="./assets/imgs/person.png" alt="">
+                        <div class="procedimento">Exame externo do cadáver</div>
+                        </div>
+                        <div class="texto">Exame do corpo no local do crime. Descrição de todas as
+                            características físicas, vestes e lesões externas do corpo.</div>
+                    </div>
+                </div>
+                <div class="procedimento-cartao">
+                    <div class="numero">05</div>
+                    <div class="conteudo">
+                        <div class="titulo-e-icone">
+                        <img src="./assets/imgs/hospital.png" alt="">
+                        <div class="procedimento">Exame tanatológico (IML)</div>
+                        </div>
+                        <div class="texto">Transporte do corpo até o IML, local onde ocorre o exame
+                            macroscópico e estimação do tempo de morte.</div>
+                    </div>
+                </div>
+                <div class="procedimento-cartao">
+                    <div class="numero">06</div>
+                    <div class="conteudo">
+                        <div class="titulo-e-icone">
+                        <img src="./assets/imgs/doc.png" alt="">
+                        <div class="procedimento">Análise e elaboração do laudo</div>
+                        </div>
+                        <div class="texto">Análise laboratorial dos vestígios coletados, análise de dados e
+                            elaboração do laudo pericial.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!-- SEÇÃO VESTIGIOS -->
+
+  <div id="vestigios">
+                <div class="posicao">// VESTÍGIOS</div>
+                <h2 class="titulo-vermelho">Tipos de Vestígios</h2>
+                <p class="descricao">Principais vestígios que caracterizam o crime por razões de gênero</p>
+
+                <div class="vestigios">
+                    <div class="cartao-vestigio1">
+                        <div class="vestigio-numero">01</div>
+                        <div class="vestigio-titulo">Vestígios no Local</div>
+                        <div class="vestigio-texto">Objetos quebrados, cabelos arrancados, danos em portas/janelas, sinais
+                            de cárcere privado</div>
+                    </div>
+                    <div class="cartao-vestigio2">
+                        <div class="vestigio-numero">02</div>
+                        <div class="vestigio-titulo">Lesões na Vítima</div>
+                        <div class="vestigio-texto">Múltiplos ferimentos, ferimentos em antebraço/mãos, lesões antigas,
+                            sinais de tortura ou amarras</div>
+                    </div>
+                    <div class="cartao-vestigio3">
+                        <div class="vestigio-numero">03</div>
+                        <div class="vestigio-titulo">Contexto Digital</div>
+                        <div class="vestigio-texto">Mensagens/ligações ameaçadoras, redes sociais, GPS e localização da
+                            vítima, registros de B.O e medidas protetivas</div>
+                    </div>
+                </div>
+            <img src="./assets/imgs/perito.png" alt=""> 
+    </div>
+
+</body>
 
 </html>

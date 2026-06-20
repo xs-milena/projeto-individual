@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "JetBrains Mono";
+}
+
+/* BARRA SUPERIOR HELP */
+
+.barra-superior {
+  height: 30px;
+  background-color: #050505;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #b9b9b9;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.barra-superior span {
+  color: #e63946;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+.header-e-banner {
+    background-image: url('../assets/imgs/banner.png');
+    height: 1300px;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.titulo {
+  color: #e63946;
+  font-size: 15px;
+}
+
+.titulo span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.botao-login {
+  background-color: #7b0211;
+  color: white;
+  padding: 6px 22px;
+  border-radius: 60px;
+  font-weight: 600;
+}
+
+/* BANNER */
+
+.banner {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner .titulo {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 170px;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner .cor-destaque{
+  color: #e63946;
+  font-weight: 800;
+}
+
+.banner .subtitulo {
+  font-size: 20px;
+  color: #b9b9b9;
+  margin-bottom: 80px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.estatisticas {
+  display: flex;
+}
+
+.kpi {
+  background-color: #0e0e0e;
+  border: 2px solid rgba(230, 57, 70, 0.5);
+  padding: 22px 32px;
+  text-align: center;
+  width: 250px;
+  border-radius: 6px;
+  margin: 25px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kpi .numero {
+  font-size: 35px;
+  font-weight: 800;
+  color: #e63946;
+  margin-bottom: 6px;
+}
+
+.kpi .descricao {
+  font-size: 16px;
+  color: #b9b9b9;
+}
+
+/* SEÇÃO LEGISLAÇÃO */
+
+#legislacao {
+  margin-left: 130px;
+}
+
+#legislacao .posicao{
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#legislacao .titulo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+  margin-left: 25px;
+  font-family: "Syne";
+  z-index: 1;
+}
+
+#legislacao .descricao {
+  font-size: 20px;
+  color: #9a9a9a;
+  width: 850px;
+  margin-bottom: 80px;
+  margin-left: 25px;
+  font-family: "Montserrat";
+}
+
+#legislacao img {
+  position: absolute;
+  z-index: -1;
+  width: 1700px;
+  height: 1100px;
+  margin-top: -250px;
+  margin-left: 30px;
+}
+
+.info-lei {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+}
+
+.item .data {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 6px;
+  margin-left: 100px;
+}
+
+.item .nome-lei {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  font-family: "Syne";
+  margin-left: 90px;
+}
+
+.item .data-pena {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 6px;
+  margin-left: 200px;
+}
+
+.item .pena {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  font-family: "Syne";
+   margin-left: 215px;
+}
+
+.cartoes-lei {
+  display: flex;
+}
+
+.cartao {
+  background-color: #101010;
+  border: 2px solid rgba(230, 57, 70, 0.4);
+  padding: 20px 30px;
+  width: 370px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-left: 35px;
+}
+
+.cartao p {
+  font-size: 16px;
+  color: #b9b9b9;
+}
+
+/* SEÇÃO PERÍCIA */
+
+#pericia {
+  background-image: url("../assets/imgs/procedimento.png");
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1750px;
+  background-size: cover;
+  z-index: -1;
+}
+
+#pericia .posicao{
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 470px;
+}
+
+#pericia .titulo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+  font-family: "Syne";
+  z-index: 1;
+  margin-left: 155px;
+}
+
+#pericia .descricao {
+  font-size: 20px;
+  color: #9a9a9a;
+  width: 850px;
+  margin-bottom: 30px;
+  margin-left: 155px;
+  font-family: "Montserrat";
+}
+
+.procedimentos {
+  display: flex;
+  flex-wrap: wrap; /*pedir permissão */
+  margin: 20px;
+  justify-content: center;
+  align-self: center;
+  margin-top: 30px;
+  width: 1700px;
+}
+
+.procedimento-cartao {
+  background-color: #10101067;
+  border: 2px solid rgba(230, 57, 70, 0.35);
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  border-radius: 6px;
+  height: 180px;
+  align-items: center;
+  margin: 30px;
+}
+
+.procedimentos .numero {
+  background-color: #7b0211;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 2px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.procedimentos .conteudo {
+  padding: 18px 30px;
+}
+
+.titulo-e-icone {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.titulo-e-icone img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.titulo-e-icone .procedimento{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Syne";
+  margin-left: 10px;
+  padding-top: 12px;
+}
+
+.conteudo .texto {
+  font-size: 15px;
+  color: #b9b9b9;
+}
+
+
+/* SEÇÃP VESTÍGIOS */
+
+
+#vestigios {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#vestigios .posicao{
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+}
+
+#vestigios .titulo-vermelho {
+  font-size: 50px;
+  font-weight: 800;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-family: "Syne";
+  z-index: 1;
+  margin-left: 155px;
+}
+
+#vestigios .descricao {
+  font-size: 20px;
+  color: #9a9a9a;
+  width: 850px;
+  margin-bottom: 100px;
+  margin-left: 155px;
+  font-family: "Montserrat";
+}
+
+.vestigios {
+  display: flex;
+  margin-left: 200px;
+  flex-direction: column;
+}
+
+.cartao-vestigio1 {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartao-vestigio2 {
+  width: 300px;
+  text-align: center;
+  margin-left: 400px;
+    margin-bottom: 40px;
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartao-vestigio3 {
+  width: 300px;
+  text-align: center;
+  margin-left: 70px;
+    margin-bottom: 40px;
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vestigio-numero {
+  font-size: 15px;
+  color: #e63946;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.vestigio-titulo {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: "Syne";
+}
+
+.vestigio-texto {
+  font-size: 15px;
+  color: #b9b9b9;
+  width: 260px;
+}
+
+
+#vestigios img {
+  position: absolute;
+  z-index: -1;
+  width: 1600px;
+  height: 1300px;
+  margin-left: 300px;
+}
