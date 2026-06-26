@@ -1,235 +1,605 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perícia & Feminicídio</title>
 
-  <title>Perícia & Feminicídio</title>
+    <script src="./js/sessao.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-  <script src="./js/sessao.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" href="./assets/icon/logo.png" />
+  </head>
 
-  <link rel="stylesheet" href="./css/index.css" />
-  <link rel="icon" href="./assets/icon/logo.png" />
-</head>
-
-<body>
-  <div class="barra-superior">
-    <p>
-      Se você está em situação de risco <span>ligue 180</span> (Central de
-      Atendimento à Mulher) ou <span>190</span> (Policía Militar)
-    </p>
-  </div>
-
-  <!-- HEADER E BANNER  -->
-
-  <div class="header-e-banner">
-    <div class="header">
-      <div class="container">
-        <h1 class="titulo">PERÍCIA<span> & </span>FEMINICÍDIO</h1>
-        <ul class="navbar">
-          <li>
-            <a href="#">INICIO</a>
-          </li>
-          <li>
-            <a href="#legislacao">LEGISLAÇÃO</a>
-          </li>
-          <li>
-            <a href="#pericia">PERICIA</a>
-          </li>
-          <li>
-            <a href="#vestigios">VESTÍGIOS</a>
-          </li>
-          <li>
-            <a href="cadastro.html">EVIDÊNCIAS</a>
-          </li>
-          <li>
-            <a href="cadastro.html">LAUDO</a>
-          </li>
-          <li>
-            <a href="cadastro.html">DADOS</a>
-          </li>
-          <li>
-            <a href="cadastro.html">SOBRE</a>
-          </li>
-          <li>
-            <a href="cadastro.html">QUIZES</a>
-          </li>
-          <a href="cadastro.html" class="botao-login">LOGIN</a>
-        </ul>
-      </div>
+  <body>
+    <div class="barra-superior">
+      <p>
+        Se você está em situação de risco <span>ligue 180</span> (Central de
+        Atendimento à Mulher) ou <span>190</span> (Policía Militar)
+      </p>
     </div>
 
-    <!-- BANNER -->
+    <!-- HEADER E BANNER  -->
 
-    <div class="banner">
-      <h1 class="titulo">
-        ATUAÇÃO DA <span class="cor-destaque"> PERICÍA CRIMINAL </span><br/>
-        EM CASOS DE <span class="cor-destaque"> FEMINICÍDIO </span>
-      </h1>
-      <p class="subtitulo">
-        Análise de como a perícia criminal contribui para a investigação<br> de
-        crimes contra mulheres no Brasil
-      </p>
-      <div class="estatisticas">
-        <div class="kpi">
-          <div class="numero">1.568</div>
-          <div class="descricao">
-            Vítimas de feminicídio<br />em 2025 no Brasil
+    <div class="header-e-banner">
+      <div class="header">
+        <div class="container">
+          <h1 class="titulo">PERÍCIA<span> & </span>FEMINICÍDIO</h1>
+          <ul class="navbar">
+            <li>
+              <a href="#">INICIO</a>
+            </li>
+            <li>
+              <a href="#legislacao">LEGISLAÇÃO</a>
+            </li>
+            <li>
+              <a href="#pericia">PERICIA</a>
+            </li>
+            <li>
+              <a href="#vestigios">VESTÍGIOS</a>
+            </li>
+            <li>
+              <a href="#evidencias">EVIDÊNCIAS</a>
+            </li>
+            <li>
+              <a href="#laudo">LAUDO</a>
+            </li>
+            <li>
+              <a href="#dados">DADOS</a>
+            </li>
+            <li>
+              <a href="#sobre">SOBRE</a>
+            </li>
+            <li>
+              <a href="cadastro.html">QUIZES</a>
+            </li>
+            <a href="cadastro.html" class="botao-login">LOGIN</a>
+          </ul>
+        </div>
+      </div>
+
+      <!-- BANNER -->
+
+      <div class="banner">
+        <h1 class="titulo">
+          ATUAÇÃO DA <span class="cor-destaque"> PERICÍA CRIMINAL </span><br />
+          EM CASOS DE <span class="cor-destaque"> FEMINICÍDIO </span>
+        </h1>
+        <p class="subtitulo">
+          Análise de como a perícia criminal contribui para a investigação<br />
+          de crimes contra mulheres no Brasil
+        </p>
+        <div class="estatisticas">
+          <div class="kpi">
+            <div class="numero">1.568</div>
+            <div class="descricao">
+              Vítimas de feminicídio<br />em 2025 no Brasil
+            </div>
+          </div>
+          <div class="kpi">
+            <div class="numero">+ 4.7%</div>
+            <div class="descricao">Crescimento em<br />relação a 2024</div>
+          </div>
+          <div class="kpi">
+            <div class="numero">59.4%</div>
+            <div class="descricao">Vítimas mortas pelo<br />companheiro</div>
           </div>
         </div>
-        <div class="kpi">
-          <div class="numero">+ 4.7%</div>
-          <div class="descricao">Crescimento em<br />relação a 2024</div>
-        </div>
-        <div class="kpi">
-          <div class="numero">59.4%</div>
-          <div class="descricao">Vítimas mortas pelo<br/>companheiro</div>
-        </div>
       </div>
     </div>
-  </div>
 
-  <!-- SEÇÃO LEGISLAÇÃO -->
+    <!-- SEÇÃO LEGISLAÇÃO -->
 
     <div id="legislacao">
-                <img src="./assets/imgs/mulher.png" alt="">
-                <div class="posicao">// LEGISLAÇÃO BRASILEIRA</div>
-                <h2 class="titulo">O que é Feminicídio?</h2>
-                <p class="descricao">O feminicídio é o homicídio cometido contra a mulher por razões de gênero,
-                    envolvendo violência doméstica e familiar e/ou menosprezo à condição de mulher.</p>
+      <img src="./assets/imgs/mulher.png" alt="" />
+      <div class="posicao">// LEGISLAÇÃO BRASILEIRA</div>
+      <h2 class="titulo">O que é Feminicídio?</h2>
+      <p class="descricao">
+        O feminicídio é o homicídio cometido contra a mulher por razões de
+        gênero, envolvendo violência doméstica e familiar e/ou menosprezo à
+        condição de mulher.
+      </p>
 
-                <div class="info-lei">
-                    <div class="item">
-                        <div class="data">09 de Março de 2015</div>
-                        <div class="nome-lei">Lei nº 13.104</div>
-                    </div>
-                    <div class="item">
-                        <div class="data-pena">12 a 30 anos</div>
-                        <div class="pena">Reclusão</div>
-                    </div>
-                </div>
+      <div class="info-lei">
+        <div class="item">
+          <div class="data">09 de Março de 2015</div>
+          <div class="nome-lei">Lei nº 13.104</div>
+        </div>
+        <div class="item">
+          <div class="data-pena">12 a 30 anos</div>
+          <div class="pena">Reclusão</div>
+        </div>
+      </div>
 
-                <div class="cartoes-lei">
-                    <div class="cartao">
-                        <p>Qualifica o feminicídio como crime hediondo</p>
-                    </div>
-                    <div class="cartao">
-                        <p>De acordo com o Código Penal brasileiro (Decreto-Lei nº 2.848 de 1940)</p>
-                    </div>
-                </div>
+      <div class="cartoes-lei">
+        <div class="cartao">
+          <p>Qualifica o feminicídio como crime hediondo</p>
+        </div>
+        <div class="cartao">
+          <p>
+            De acordo com o Código Penal brasileiro (Decreto-Lei nº 2.848 de
+            1940)
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- SEÇÃO PERÍCIA -->
 
-        <div id="pericia">
-            <div class="posicao">// PERICIA CRIMINAL</div>
-            <h2 class="titulo">Procedimento Pericial</h2>
-            <p class="descricao">Procedimentos técnicos realizados por peritos para verificar se houve crime,
-                analisando vestígios que comprovem o fato e identifiquem os envolvidos.</p>
+    <div id="pericia">
+      <div class="posicao">// PERICIA CRIMINAL</div>
+      <h2 class="titulo">Procedimento Pericial</h2>
+      <p class="descricao">
+        Procedimentos técnicos realizados por peritos para verificar se houve
+        crime, analisando vestígios que comprovem o fato e identifiquem os
+        envolvidos.
+      </p>
 
-            <div class="procedimentos">
-                <div class="procedimento-cartao">
-                    <div class="numero">01</div>
-                    <div class="conteudo">
-                        <div class="titulo-e-icone">
-                        <img src="./assets/imgs/door.png" alt="">
-                        <div class="procedimento">Isolamento da cena de crime</div>
-                        </div>
-                        <div class="texto">Isolamento do local para evitar interferências, preservação dos
-                            vestígios e início da cadeia de custódia.</div>
-                    </div>
-                </div>
-                <div class="procedimento-cartao">
-                    <div class="numero">02</div>
-                    <div class="conteudo">
-                        <div class="titulo-e-icone">
-                        <img src="./assets/imgs/camera.png" alt="">
-                        <div class="procedimento">Registro escrito e fotográfico</div>
-                        </div>
-                        <div class="texto">Anotações específicas dos vestígios, além de registros
-                            fotográficos antes de qualquer coleta. Etapa fundamental para garantir a integridade das
-                            evidências.</div>
-                    </div>
-                </div>
-                <div class="procedimento-cartao">
-                    <div class="numero">03</div>
-                    <div class="conteudo">
-                        <div class="titulo-e-icone">
-                        <img src="./assets/imgs/lupa.png" alt="">
-                        <div class="procedimento">Coleta e armazenamento dos vestígios</div>
-                        </div>
-                        <div class="texto">Acontece a coleta e armazenamento dos vestígios de acordo com
-                            suas características físicas, químicas e biológicas.</div>
-                    </div>
-                </div>
-                <div class="procedimento-cartao">
-                    <div class="numero">04</div>
-                    <div class="conteudo">
-                        <div class="titulo-e-icone">
-                        <img src="./assets/imgs/person.png" alt="">
-                        <div class="procedimento">Exame externo do cadáver</div>
-                        </div>
-                        <div class="texto">Exame do corpo no local do crime. Descrição de todas as
-                            características físicas, vestes e lesões externas do corpo.</div>
-                    </div>
-                </div>
-                <div class="procedimento-cartao">
-                    <div class="numero">05</div>
-                    <div class="conteudo">
-                        <div class="titulo-e-icone">
-                        <img src="./assets/imgs/hospital.png" alt="">
-                        <div class="procedimento">Exame tanatológico (IML)</div>
-                        </div>
-                        <div class="texto">Transporte do corpo até o IML, local onde ocorre o exame
-                            macroscópico e estimação do tempo de morte.</div>
-                    </div>
-                </div>
-                <div class="procedimento-cartao">
-                    <div class="numero">06</div>
-                    <div class="conteudo">
-                        <div class="titulo-e-icone">
-                        <img src="./assets/imgs/doc.png" alt="">
-                        <div class="procedimento">Análise e elaboração do laudo</div>
-                        </div>
-                        <div class="texto">Análise laboratorial dos vestígios coletados, análise de dados e
-                            elaboração do laudo pericial.</div>
-                    </div>
-                </div>
+      <div class="procedimentos">
+        <div class="procedimento-cartao">
+          <div class="numero">01</div>
+          <div class="conteudo">
+            <div class="titulo-e-icone">
+              <img src="./assets/imgs/door.png" alt="" />
+              <div class="procedimento">Isolamento da cena de crime</div>
             </div>
+            <div class="texto">
+              Isolamento do local para evitar interferências, preservação dos
+              vestígios e início da cadeia de custódia.
+            </div>
+          </div>
         </div>
-
- <!-- SEÇÃO VESTIGIOS -->
-
-  <div id="vestigios">
-                <div class="posicao">// VESTÍGIOS</div>
-                <h2 class="titulo-vermelho">Tipos de Vestígios</h2>
-                <p class="descricao">Principais vestígios que caracterizam o crime por razões de gênero</p>
-
-                <div class="vestigios">
-                    <div class="cartao-vestigio1">
-                        <div class="vestigio-numero">01</div>
-                        <div class="vestigio-titulo">Vestígios no Local</div>
-                        <div class="vestigio-texto">Objetos quebrados, cabelos arrancados, danos em portas/janelas, sinais
-                            de cárcere privado</div>
-                    </div>
-                    <div class="cartao-vestigio2">
-                        <div class="vestigio-numero">02</div>
-                        <div class="vestigio-titulo">Lesões na Vítima</div>
-                        <div class="vestigio-texto">Múltiplos ferimentos, ferimentos em antebraço/mãos, lesões antigas,
-                            sinais de tortura ou amarras</div>
-                    </div>
-                    <div class="cartao-vestigio3">
-                        <div class="vestigio-numero">03</div>
-                        <div class="vestigio-titulo">Contexto Digital</div>
-                        <div class="vestigio-texto">Mensagens/ligações ameaçadoras, redes sociais, GPS e localização da
-                            vítima, registros de B.O e medidas protetivas</div>
-                    </div>
-                </div>
-            <img src="./assets/imgs/perito.png" alt=""> 
+        <div class="procedimento-cartao">
+          <div class="numero">02</div>
+          <div class="conteudo">
+            <div class="titulo-e-icone">
+              <img src="./assets/imgs/camera.png" alt="" />
+              <div class="procedimento">Registro escrito e fotográfico</div>
+            </div>
+            <div class="texto">
+              Anotações específicas dos vestígios, além de registros
+              fotográficos antes de qualquer coleta. Etapa fundamental para
+              garantir a integridade das evidências.
+            </div>
+          </div>
+        </div>
+        <div class="procedimento-cartao">
+          <div class="numero">03</div>
+          <div class="conteudo">
+            <div class="titulo-e-icone">
+              <img src="./assets/imgs/lupa.png" alt="" />
+              <div class="procedimento">
+                Coleta e armazenamento dos vestígios
+              </div>
+            </div>
+            <div class="texto">
+              Acontece a coleta e armazenamento dos vestígios de acordo com suas
+              características físicas, químicas e biológicas.
+            </div>
+          </div>
+        </div>
+        <div class="procedimento-cartao">
+          <div class="numero">04</div>
+          <div class="conteudo">
+            <div class="titulo-e-icone">
+              <img src="./assets/imgs/person.png" alt="" />
+              <div class="procedimento">Exame externo do cadáver</div>
+            </div>
+            <div class="texto">
+              Exame do corpo no local do crime. Descrição de todas as
+              características físicas, vestes e lesões externas do corpo.
+            </div>
+          </div>
+        </div>
+        <div class="procedimento-cartao">
+          <div class="numero">05</div>
+          <div class="conteudo">
+            <div class="titulo-e-icone">
+              <img src="./assets/imgs/hospital.png" alt="" />
+              <div class="procedimento">Exame tanatológico (IML)</div>
+            </div>
+            <div class="texto">
+              Transporte do corpo até o IML, local onde ocorre o exame
+              macroscópico e estimação do tempo de morte.
+            </div>
+          </div>
+        </div>
+        <div class="procedimento-cartao">
+          <div class="numero">06</div>
+          <div class="conteudo">
+            <div class="titulo-e-icone">
+              <img src="./assets/imgs/doc.png" alt="" />
+              <div class="procedimento">Análise e elaboração do laudo</div>
+            </div>
+            <div class="texto">
+              Análise laboratorial dos vestígios coletados, análise de dados e
+              elaboração do laudo pericial.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-</body>
+    <!-- SEÇÃO VESTIGIOS -->
 
+    <div id="vestigios">
+      <div class="posicao">// VESTÍGIOS</div>
+      <h2 class="titulo-vermelho">Tipos de Vestígios</h2>
+      <p class="descricao">
+        Principais vestígios que caracterizam o crime por razões de gênero
+      </p>
+
+      <div class="vestigios">
+        <div class="cartao-vestigio1">
+          <div class="vestigio-numero">01</div>
+          <div class="vestigio-titulo">Vestígios no Local</div>
+          <div class="vestigio-texto">
+            Objetos quebrados, cabelos arrancados, danos em portas/janelas,
+            sinais de cárcere privado
+          </div>
+        </div>
+        <div class="cartao-vestigio2">
+          <div class="vestigio-numero">02</div>
+          <div class="vestigio-titulo">Lesões na Vítima</div>
+          <div class="vestigio-texto">
+            Múltiplos ferimentos, ferimentos em antebraço/mãos, lesões antigas,
+            sinais de tortura ou amarras
+          </div>
+        </div>
+        <div class="cartao-vestigio3">
+          <div class="vestigio-numero">03</div>
+          <div class="vestigio-titulo">Contexto Digital</div>
+          <div class="vestigio-texto">
+            Mensagens/ligações ameaçadoras, redes sociais, GPS e localização da
+            vítima, registros de B.O e medidas protetivas
+          </div>
+        </div>
+      </div>
+      <img src="./assets/imgs/perito.png" alt="" />
+    </div>
+
+    <!-- SEÇÃO EVIDÊNCIAS -->
+
+    <div id="evidencias">
+      <div class="posicao">// EVIDÊNCIAS</div>
+      <h2 class="titulo">Tipos de Evidências</h2>
+      <p class="descricao">
+        Classificação das evidências coletadas e analisadas cientificamente pela
+        perícia criminal, assim, ajudando na reconstrução dos fatos.
+      </p>
+
+      <div class="evidencias">
+        <div class="cartao-evidencia">
+          <div class="tipo">Biológica</div>
+          <div class="descricao-evidencia">
+            Todo material genético que permite identificar o agressor ou a
+            vítima
+          </div>
+          <div class="tags-evidencia">
+            <span class="tag-evidencia">DNA</span>
+            <span class="tag-evidencia">Cabelo</span>
+            <span class="tag-evidencia">Saliva</span>
+            <span class="tag-evidencia">Sangue</span>
+          </div>
+        </div>
+        <div class="cartao-evidencia">
+          <div class="tipo">Digitais</div>
+          <div class="descricao-evidencia">
+            Dados digitais que revelam histórico de violência e/ou ameaças e
+            comunicações
+          </div>
+          <div class="tags-evidencia">
+            <span class="tag-evidencia">Celular</span>
+            <span class="tag-evidencia">GPS</span>
+            <span class="tag-evidencia">Mensagens</span>
+            <span class="tag-evidencia">Ligações</span>
+          </div>
+        </div>
+        <div class="cartao-evidencia">
+          <div class="tipo">Físicas</div>
+          <div class="descricao-evidencia">
+            Objetos materiais que evidenciaram a autoria do crime
+          </div>
+          <div class="tags-evidencia">
+            <span class="tag-evidencia">Armas</span>
+            <span class="tag-evidencia">Fibras</span>
+            <span class="tag-evidencia">Objetos</span>
+          </div>
+        </div>
+        <div class="cartao-evidencia">
+          <div class="tipo">Documentos</div>
+          <div class="descricao-evidencia">
+            Documentos que contenham registros indicando violência anterior ao
+            crime
+          </div>
+          <div class="tags-evidencia">
+            <span class="tag-evidencia">Boletins de Ocorrência</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEÇÃO LAUDO -->
+
+    <div id="laudo">
+      <div class="posicao">// Laudo</div>
+      <h2 class="titulo">Laudo Pericial</h2>
+      <p class="descricao">
+        Documento técnico-formal elaborado por peritos nomeados. Sendo este,
+        escrito em linguagem clara e objetiva, descrevendo não somente lesões e
+        quantidades, mas a forma como ocorreram e evidências para auxiliar a
+        autoridade julgadora, indicando possíveis razões de gênero.
+      </p>
+
+      <div class="documentacao">
+        <div class="cartao-doc1">
+          <div class="doc-numero">01</div>
+          <div class="doc-titulo">Descrição da Cena</div>
+          <div class="doc-texto">
+            Detalhamento completo do local do crime, incluindo dimensões,
+            condições e disposição dos elementos.
+          </div>
+        </div>
+        <div class="cartao-doc2">
+          <div class="doc-numero">02</div>
+          <div class="doc-titulo">Metodologia</div>
+          <div class="doc-texto">
+            Descrição das técnicas e procedimentos científicos empregados na
+            análise.
+          </div>
+        </div>
+        <div class="cartao-doc3">
+          <div class="doc-numero">03</div>
+          <div class="doc-titulo">Análises</div>
+          <div class="doc-texto">
+            Identificação, catalogação e análise técnica de todos os vestígios
+            coletados
+          </div>
+        </div>
+        <div class="cartao-doc4">
+          <div class="doc-numero">04</div>
+          <div class="doc-titulo">Conclusão</div>
+          <div class="doc-texto">
+            Parecer técnico-científico sobre a dinâmica do crime e suas
+            circunstâncias.
+          </div>
+        </div>
+      </div>
+      <img src="./assets/imgs/pasta.png" alt="" />
+    </div>
+
+    <!-- SEÇÃO ESTATÍTICAS -->
+
+    <div id="dados">
+      <div class="posicao">// DADOS E ESTATÍTICAS</div>
+      <h2 class="titulo-vermelho">Feminicídio no Brasil</h2>
+      <p class="descricao">
+        Dados retirados do Anuário Brasileiro de Segurança Pública, 2026.
+      </p>
+
+      <div class="graficos">
+        <div class="informacoes-destaque">
+          <div class="destaque-numero">
+            <div class="rotulo-destaque">CRESCIMENTO ACUMULADO</div>
+            <div class="numero-casos">
+              <span>+13.000</span><br />casos desde<br />2015 à 2025
+            </div>
+          </div>
+          <div class="caixa-estado">
+            <canvas id="estados" style="width: 0px"></canvas>
+          </div>
+        </div>
+        <div>
+          <div class="caixa-qnt-feminicidio">
+            <canvas id="qnt-feminicidio" style="width: 0px"></canvas>
+          </div>
+
+          <div class="caixa-tipo-feminicidio">
+            <canvas id="tipo-feminicidio" style="width: 0px"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEÇÃO SOBRE -->
+
+    <div id="sobre">
+      <img src="./assets/imgs/sobre.png" alt="" />
+      <div id="div_sobre">
+        <div class="posicao">// SOBRE</div>
+        <h2 class="titulo">Sobre o Projeto</h2>
+        <p class="descricao">
+          Este website foi desenvolvido em 2026 como uma ferramenta
+          de conscientização, tendo como objetivo informar o público sobre a
+          violência contra a mulher e enfatizar a importância
+          da perícia criminal na elucidação de casos de feminicídio.
+        </p>
+
+        <div class="cartao-sobre1">
+          <div class="dev">Desenvolvedora</div>
+          <div class="dev-nome">Milena Amorim</div>
+          <div class="agradecimentos">
+            Agradecimentos à faculdade SPTech, Evelyn, Giovanna e Brenda.
+          </div>
+        </div>
+        <div class="cartao-sobre2">
+          <div class="info-extras">Infromações Extras</div>
+          <div class="referencias">Referências</div>
+          <div class="topicos-referencias">
+            <ul>
+              <li>
+                <a
+                  href="https://forumseguranca.org.br/wp-content/uploads/2026/03/nota-tecnica-dia-mulher-2026.pdf"
+                >
+                  PDF - Retrato dos Feminicídios no Brasil</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://fontesegura.forumseguranca.org.br/a-pericia-de-feminicidios/"
+                  >Análise Percial em casos de Feminicídio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.saopaulo.sp.leg.br/mulheres/legislacao/lei-do-feminicidio/"
+                  >Lei do Feminicídio</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@BiancaMarcheso"
+                  >Canal de true crime focado na conscientização da violência
+                  contra a mulher</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div class="container">
+        <h4>Feito com amor por aluno &hearts; SPTech &copy; 2026</h4>
+        <span class="version">v1.0.0</span>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    const grafico3 = document.getElementById("estados");
+
+    new Chart(grafico3, {
+      type: "bar",
+      data: {
+        labels: ["São Paulo", "Minas Gerais", "Rio de Janeiro", "Bahia"],
+        datasets: [
+          {
+            label: "Quantidade de Vítimas por estado",
+            data: [226, 139, 104, 103],
+            borderWidth: 1,
+            backgroundColor: "#FF0025",
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        color: "#ffff",
+        indexAxis: "x",
+        plugins: {
+          title: {
+            display: true,
+            text: "Estados com maior índice de feminicídio (Brasil, 2025)",
+            font: {
+              size: 22,
+            },
+            color: "#ffff",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+
+    const grafico1 = document.getElementById("qnt-feminicidio");
+
+    new Chart(grafico1, {
+      type: "line",
+      data: {
+        labels: [
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+        ],
+        datasets: [
+          {
+            label: "Quantidade de Vitímas por Ano",
+            data: [
+              449, 929, 1075, 1229, 1330, 1354, 1347, 1455, 1475, 1492, 1568,
+            ],
+            borderWidth: 2,
+            borderColor: "#FF0025",
+            backgroundColor: "#FF0025",
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        color: "#ffff",
+        plugins: {
+          title: {
+            display: true,
+            text: "Vítimas de feminicídio (Brasil, 2015-2025)",
+            font: {
+              size: 22,
+            },
+            color: "#ffff",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+
+    const grafico2 = document.getElementById("tipo-feminicidio");
+
+    new Chart(grafico2, {
+      type: "bar",
+      data: {
+        labels: [
+          "Companheiro",
+          "Ex-Companheiro",
+          "Familiares",
+          "Desconhecidos",
+          "Outros Conhecidos",
+        ],
+        datasets: [
+          {
+            label: "Relação entre vítima e autor",
+            data: [59.9, 21.3, 10.2, 4.9, 4.2],
+            borderWidth: 1,
+            backgroundColor: "#FF0025",
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        color: "#ffff",
+        plugins: {
+          title: {
+            display: true,
+            text: "Percentual da relação entre vítima e autor do crime (Brasil, 2021-2014)",
+            font: {
+              size: 22,
+            },
+            color: "#ffff",
+          },
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+  </script>
 </html>

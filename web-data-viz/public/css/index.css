@@ -31,8 +31,8 @@ body {
 /* HEADER */
 
 .header-e-banner {
-    background-image: url('../assets/imgs/banner.png');
-    height: 1300px;
+  background-image: url("../assets/imgs/banner.png");
+  height: 1300px;
 }
 
 .container {
@@ -102,7 +102,7 @@ body {
   text-align: center;
 }
 
-.banner .cor-destaque{
+.banner .cor-destaque {
   color: #e63946;
   font-weight: 800;
 }
@@ -153,7 +153,7 @@ body {
   margin-left: 130px;
 }
 
-#legislacao .posicao{
+#legislacao .posicao {
   font-size: 20px;
   color: #e63946;
   margin-bottom: 14px;
@@ -231,7 +231,7 @@ body {
   font-weight: 800;
   color: #fff;
   font-family: "Syne";
-   margin-left: 215px;
+  margin-left: 215px;
 }
 
 .cartoes-lei {
@@ -269,7 +269,7 @@ body {
   z-index: -1;
 }
 
-#pericia .posicao{
+#pericia .posicao {
   font-size: 20px;
   color: #e63946;
   margin-bottom: 14px;
@@ -348,12 +348,12 @@ body {
 }
 
 .titulo-e-icone img {
-    width: 30px;
-    height: 30px;
-    margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
 }
 
-.titulo-e-icone .procedimento{
+.titulo-e-icone .procedimento {
   font-size: 22px;
   font-weight: 700;
   color: #fff;
@@ -367,9 +367,7 @@ body {
   color: #b9b9b9;
 }
 
-
-/* SEÇÃP VESTÍGIOS */
-
+/* SEÇÃO VESTÍGIOS */
 
 #vestigios {
   position: relative;
@@ -377,7 +375,7 @@ body {
   flex-direction: column;
 }
 
-#vestigios .posicao{
+#vestigios .posicao {
   font-size: 20px;
   color: #e63946;
   margin-bottom: 14px;
@@ -425,9 +423,9 @@ body {
 .cartao-vestigio2 {
   width: 300px;
   text-align: center;
-  margin-left: 400px;
-    margin-bottom: 40px;
-     display: flex;
+  margin-left: 500px;
+  margin-bottom: 40px;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -436,8 +434,8 @@ body {
   width: 300px;
   text-align: center;
   margin-left: 70px;
-    margin-bottom: 40px;
-     display: flex;
+  margin-bottom: 40px;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -450,19 +448,18 @@ body {
 }
 
 .vestigio-titulo {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-family: "Syne";
 }
 
 .vestigio-texto {
   font-size: 15px;
   color: #b9b9b9;
-  width: 260px;
+  width: 300px;
 }
-
 
 #vestigios img {
   position: absolute;
@@ -470,4 +467,444 @@ body {
   width: 1600px;
   height: 1300px;
   margin-left: 300px;
+}
+
+/* SEÇÃO EVIDẼNCIAS */
+
+#evidencias {
+  background-image: url("../assets/imgs/evidencia.png");
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1700px;
+  background-size: cover;
+  margin-top: -270px;
+  z-index: -1;
+}
+
+#evidencias .posicao {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 550px;
+}
+
+#evidencias .titulo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+  font-family: "Syne";
+  z-index: 1;
+  margin-left: 155px;
+}
+
+#evidencias .descricao {
+  font-size: 20px;
+  color: #9a9a9a;
+  width: 850px;
+  margin-bottom: 30px;
+  margin-left: 155px;
+  font-family: "Montserrat";
+}
+
+.evidencias {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1500px;
+  justify-content: center;
+  margin-top: 30px;
+  align-self: center;
+}
+
+.cartao-evidencia {
+  background-color: #101010;
+  border: 2px solid rgba(230, 57, 70, 0.4);
+  padding: 30px 30px;
+  width: 500px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.cartao-evidencia .tipo {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: "Syne";
+}
+
+.cartao-evidencia .descricao-evidencia {
+  font-size: 15px;
+  color: #9a9a9a;
+  margin-bottom: 20px;
+}
+
+.tags-evidencia {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag-evidencia {
+  background-color: #a90019;
+  color: #fff;
+  font-size: 15px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  margin-right: 10px;
+}
+
+/* SEÇÃO LAUDO */
+
+#laudo {
+  display: flex;
+  flex-direction: column;
+}
+
+#laudo .posicao {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 80px;
+}
+
+#laudo .titulo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+  font-family: "Syne";
+  z-index: 1;
+  margin-left: 155px;
+}
+
+#laudo .descricao {
+  font-size: 20px;
+  color: #9a9a9a;
+  width: 1400px;
+  margin-bottom: 120px;
+  margin-left: 155px;
+  font-family: "Montserrat";
+}
+
+.documentacao {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  flex-direction: column;
+}
+
+.cartao-doc1 {
+  width: 300px;
+  text-align: center;
+}
+
+.cartao-doc2 {
+  width: 300px;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.cartao-doc3 {
+  width: 300px;
+  text-align: center;
+}
+
+.cartao-doc4 {
+  width: 300px;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.doc-numero {
+  font-size: 15px;
+  color: #e63946;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.doc-titulo {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Syne";
+  width: 300px;
+}
+
+.doc-texto {
+  font-size: 15px;
+  color: #b9b9b9;
+}
+
+#laudo img {
+  position: absolute;
+  z-index: -2;
+  width: 1500px;
+  height: 1300px;
+  margin-left: 400px;
+}
+
+/* SEÇÃ0 ESTATÍTICAS */
+
+#dados {
+  display: flex;
+  margin-top: 120px;
+  align-self: center;
+  background-image: url("../assets/imgs/brasil.png");
+  width: 100%;
+  height: 1500px;
+  background-size: cover;
+  z-index: -2;
+  position: relative;
+  flex-direction: column;
+}
+
+#dados .posicao {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 200px;
+}
+
+#dados .titulo-vermelho {
+  font-size: 50px;
+  font-weight: 800;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-family: "Syne";
+  z-index: 1;
+  margin-left: 155px;
+}
+
+#dados .descricao {
+  font-size: 20px;
+  color: #fafafa;
+  width: 1400px;
+  margin-bottom: 120px;
+  margin-left: 155px;
+  font-family: "Montserrat";
+}
+
+.graficos {
+  display: flex;
+  margin: 24px;
+  margin-top: 30px;
+  margin-left: 190px;
+}
+
+.informacoes-destaque {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+}
+
+.destaque-numero {
+  color: #fff;
+}
+
+.destaque-numero .rotulo-destaque {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.destaque-numero .numero-casos {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.destaque-numero .numero-grande span {
+  color: #e63946;
+}
+
+.destaque-numero .periodo {
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 500;
+}
+
+.caixa-estado {
+  width: 600px;
+  height: 500px;
+  background-color: #101010;
+  border: 2px solid rgba(230, 57, 70, 0.3);
+  border-radius: 6px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.caixa-qnt-feminicidio {
+  width: 750px;
+  height: 350px;
+  background-color: #101010;
+  border: 2px solid rgba(230, 57, 70, 0.3);
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-bottom: 33px;
+  padding: 20px;
+  margin-top: -70px;
+}
+
+.caixa-tipo-feminicidio {
+  width: 750px;
+  height: 412px;
+  background-color: #101010;
+  border: 2px solid rgba(230, 57, 70, 0.3);
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+#sobre {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#sobre img {
+  position: absolute;
+  z-index: -2;
+  width: 1700px;
+  height: 1000px;
+}
+
+#sobre .posicao {
+  font-size: 20px;
+  color: #e63946;
+  margin-bottom: 14px;
+  font-weight: 500;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 800px;
+  margin-top: 80px;
+}
+
+#div_sobre {
+  display: flex;
+  flex-direction: column;
+}
+
+#sobre .titulo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+  font-family: "Syne";
+  z-index: 1;
+  margin-left: 800px;
+}
+
+#sobre .descricao {
+  font-size: 20px;
+  color: #9a9a9a;
+  width: 850px;
+  margin-bottom: 80px;
+  margin-left: 800px;
+  font-family: "Montserrat";
+}
+
+.cartao-sobre1 {
+  width: 250px;
+  text-align: left;
+  margin-left: 800px;
+}
+
+.dev {
+  font-size: 15px;
+  color: #e63946;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.dev-nome {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Syne";
+  width: 300px;
+}
+
+.agradecimentos {
+  font-size: 15px;
+  color: #b9b9b9;
+}
+
+.cartao-sobre2 {
+  width: 250px;
+  text-align: left;
+  margin-left: 1300px;
+  margin-top: 50px;
+}
+
+.info-extras {
+  font-size: 15px;
+  color: #e63946;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.referencias {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Syne";
+  width: 300px;
+}
+
+.topicos-referencias li {
+  list-style: square;
+  color: white;
+  width: 300px;
+}
+
+.topicos-referencias a {
+  font-size: 15px;
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #101010;
+  height: 90px;
+  color: #fff;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+}
+
+.footer .container {
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer .container .version {
+  font-size: 12px;
 }
