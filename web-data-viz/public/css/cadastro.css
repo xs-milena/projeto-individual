@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "JetBrains Mono";
+}
+
+.loading-div {
+  width: 50px;
+  display: none;
+  margin-top: 10px;
+}
+
+.loading-div img {
+  height: 50px;
+  width: 50px;
+}
+
+#div_erros_login {
+  display: none;
+}
+
+.alerta_erro {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card_erro {
+  display: none;
+  background-color: #0a0a0a;
+  color: #afafaf;
+  width: 230px;
+  position: fixed;
+  border-radius: 4px;
+  border: #e63946 3px solid;
+  padding: 10px;
+  margin-right: 10%;
+  font-family: "JetBrains Mono";
+  border: 2px solid rgba(230, 57, 70, 0.5);
+}
+
+.card_erro #mensagem_erro {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* BARRA SUPERIOR HELP */
+
+.barra-superior {
+  height: 30px;
+  background-color: #050505;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #b9b9b9;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.barra-superior span {
+  color: #e63946;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+.header-e-banner {
+  background-image: url("../assets/imgs/banner.png");
+  height: 1300px;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.logo {
+  color: #e63946;
+  font-size: 15px;
+}
+
+.logo span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.botao-login {
+  background-color: #7b0211;
+  color: white;
+  padding: 6px 22px;
+  border-radius: 60px;
+  font-weight: 600;
+}
+
+/* BANNER */
+
+.banner {
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.titulo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "JetBrains Mono";
+}
+
+.cor-destaque {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  font-family: "JetBrains Mono";
+  color: #e63946;
+}
+
+.descricao {
+  font-size: 20px;
+  color: #b9b9b9;
+  font-family: "Montserrat";
+}
+
+
+.formulario {
+  background-color: #0a0a0a;
+  border-radius: 6px;
+  border: 2px solid rgba(230, 57, 70, 0.5);
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.dados {
+  font-size: 15px;
+  color: #e63946;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.formulario label {
+  font-size: 13px;
+  color: #afafaf;
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.formulario input {
+  background-color: #0e0e0e;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 12px 15px;
+  color: #fff;
+  font-family: "JetBrains Mono";
+  font-size: 13px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.credencial {
+  font-size: 15px;
+  color: #e63946;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 60px; 
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.credencial-acesso {
+    display: flex;
+    flex-direction: column;
+}
+
+.credencial-acesso input {
+    width: 300px;
+}
+
+#senha_input {
+    margin-right: 35px;
+}
+
+.botoes-formulario {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.botao-cadastrar {
+  background-color:  #7b0211;
+  color: #fff;
+  border: none;
+  padding: 7px 50px;
+  border-radius: 60px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: "JetBrains Mono";
+  width: 210px;
+  margin-left: 245px;
+}
+
+.texto-login {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #9b9b9b;
+  text-align: center;
+}
+
+.texto-login a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
